@@ -33,6 +33,8 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log("✅ Backend running on https://krish-portfolio-1.onrender.com");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`✅ Backend running on port ${PORT}`);
 });
