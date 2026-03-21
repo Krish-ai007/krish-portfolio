@@ -34,5 +34,5 @@ app.post("/chat", async (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log("✅ Backend running on http://localhost:3000");
+  console.log("✅ Backend running on https://krish-portfolio-1.onrender.com");
 });
